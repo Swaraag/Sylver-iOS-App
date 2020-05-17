@@ -66,10 +66,10 @@
 				CA422B8B24707DAD001B8D4B /* SceneDelegate.swift */,
 				CA422BA224707FCB001B8D4B /* MenuVC.swift */,
 				CA422BA024707FAA001B8D4B /* HomePageVC.swift */,
+				CA422BA624708F4F001B8D4B /* SlideInTransition.swift */,
 				CA422B8F24707DAD001B8D4B /* Main.storyboard */,
 				CA422B9524707DAF001B8D4B /* Assets.xcassets */,
 				CA422B9724707DAF001B8D4B /* LaunchScreen.storyboard */,
-				CA422BA624708F4F001B8D4B /* SlideInTransition.swift */,
 				CA422B9A24707DAF001B8D4B /* Info.plist */,
 				CA422B9224707DAD001B8D4B /* SylverCompanion.xcdatamodeld */,
 			);
