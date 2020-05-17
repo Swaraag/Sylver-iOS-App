@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You currently have..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knb-HH-BQe">
-                                <rect key="frame" x="35" y="190" width="154.66666666666666" height="19.666666666666657"/>
+                                <rect key="frame" x="129.66666666666669" y="190" width="154.66666666666669" height="19.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <nil key="highlightedColor"/>
@@ -111,22 +111,30 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="QrN-dU-BAa">
+                                <rect key="frame" x="0.0" y="516" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="83L-9B-UdN"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20951905846595764" green="0.2236158549785614" blue="0.24516111612319946" alpha="0.999267578125" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="QrN-dU-BAa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0aq-dV-CuE"/>
                             <constraint firstItem="AHG-r7-jRp" firstAttribute="top" secondItem="R7E-Ml-if0" secondAttribute="bottom" constant="46.670000000000002" id="2xw-W1-MGm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QrN-dU-BAa" secondAttribute="trailing" id="357-4X-QVu"/>
                             <constraint firstItem="Xqk-9N-J7k" firstAttribute="top" secondItem="na5-3d-KnX" secondAttribute="bottom" constant="75" id="3LZ-qp-afF"/>
                             <constraint firstItem="na5-3d-KnX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A9z-w4-b7a"/>
+                            <constraint firstItem="knb-HH-BQe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Cr0-bb-jJU"/>
                             <constraint firstItem="XBf-1m-JvH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jfq-sb-5ev"/>
                             <constraint firstItem="Xqk-9N-J7k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QFf-de-W1E"/>
                             <constraint firstItem="gNh-Gc-dLK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QSj-xg-YzZ"/>
                             <constraint firstItem="R7E-Ml-if0" firstAttribute="top" secondItem="Xqk-9N-J7k" secondAttribute="bottom" constant="5" id="S5f-y5-nkG"/>
-                            <constraint firstItem="knb-HH-BQe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="TTO-xs-wjx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="knb-HH-BQe" secondAttribute="trailing" symbolic="YES" id="V5d-KT-N1q"/>
                             <constraint firstItem="R7E-Ml-if0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XV2-ET-LqB"/>
                             <constraint firstItem="gNh-Gc-dLK" firstAttribute="top" secondItem="knb-HH-BQe" secondAttribute="bottom" constant="20" id="bR4-BD-GTa"/>
                             <constraint firstItem="XBf-1m-JvH" firstAttribute="top" secondItem="gNh-Gc-dLK" secondAttribute="bottom" constant="50" id="d0c-sf-ZrE"/>
-                            <constraint firstItem="knb-HH-BQe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="evj-Ml-Vev"/>
+                            <constraint firstItem="knb-HH-BQe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gn0-qg-Djl"/>
                             <constraint firstItem="na5-3d-KnX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iBb-dk-6fS"/>
                             <constraint firstItem="AHG-r7-jRp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lhZ-GO-dfL"/>
                         </constraints>
@@ -317,6 +325,7 @@
         <image name="Dark Knight Image" width="353" height="512"/>
         <image name="FonzoCover" width="124" height="186"/>
         <image name="GretelAndHanselCover" width="124" height="186"/>
+        <image name="Line" width="1220" height="146"/>
         <image name="MovieImg" width="512" height="512"/>
         <image name="RewardsImg" width="576" height="823"/>
         <image name="ShazamLegoCover" width="124" height="186"/>
